@@ -1,4 +1,4 @@
-#include "../include/gates.h"
+#include "../include/alu_logic.h"
 
 bit and(bit a, bit b) {
     bit r;

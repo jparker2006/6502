@@ -1,20 +1,16 @@
 #ifndef NUMBER_H
 #define NUMBER_H
 
-#include "gates.h"
-#include "bit_def.h"
-
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
 
-struct Byte {
-   bit *data;
-   bool bSigned;
-};
+#include "alu_logic.h"
+#include "bit_def.h"
 
-struct Byte *new_0x00_byte(bool bSigned);
-void flip_bit(struct Byte *b, int position);
-void print_byte(struct Byte *b);
+typedef unsigned char byte;
+
+void flip_bit(byte b, int nPosition);
+void print_byte(byte b);
 
 #endif // NUMBER_H

@@ -1,7 +1,7 @@
 #ifndef GATES_H
 #define GATES_H
 
-#include "../include/bit_def.h"
+#include "bit_def.h"
 
 bit and(bit a, bit b);
 bit not (bit a);

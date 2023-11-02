@@ -1,2 +1,1 @@
-# 6502
-A 6502 emulator in C.
+# 6502 CPU Emulator
