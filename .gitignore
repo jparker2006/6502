@@ -54,3 +54,6 @@ dkms.conf
 # Apple Desktop Services files
 *.DS_Store
 
+# VS Code files
+*.vscode*
+

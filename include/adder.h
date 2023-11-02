@@ -4,7 +4,6 @@
 #include <stdlib.h>
 
 #include "alu_logic.h"
-#include "bit_def.h"
 
 bit* half_adder(bit a, bit b);
 bit* full_adder(bit a, bit b, bit carry_in);

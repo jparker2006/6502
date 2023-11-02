@@ -8,6 +8,8 @@
 #include "alu_logic.h"
 #include "byte.h"
 #include "adder.h"
+#include "instructions/shifter.h"
+#include "instructions/logical.h"
 
 #define ANSI_COLOR_GREEN   "\x1b[32m"
 #define ANSI_COLOR_BLUE    "\x1b[34m"
@@ -28,6 +30,8 @@ void test_nand();
 void test_or();
 void test_nor();
 void test_xor();
+void test_rotate_left();
+void test_rotate_right();
 
 // Testing Byte
 void test_byte();

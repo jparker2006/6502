@@ -105,6 +105,30 @@ void test_xor() {
     printf("(ALU_Logic, XOR): Passed\n");
 }
 
+void test_rotate_left() {
+    // byte a = 0b10110100;
+    // a = rotate_left(a, 1);
+    // assert(a == 0b01101001);
+
+    // byte b = 0b00011010;
+    // b = rotate_left(b, 4);
+    // assert(b == 0b10100001);
+
+    // printf("(ALU_Logic, rotate_left): Passed\n");
+}
+
+void test_rotate_right() {
+    // byte a = 0b00101011;
+    // a = rotate_right(a, 1);
+    // assert(a == 0b10010101);
+
+    // byte b = 0b10100010;
+    // b = rotate_right(b, 3);
+    // assert(b == 0b00010010);
+
+    // printf("(ALU_Logic, rotate_right): Passed\n");
+}
+
 // Testing byte.c
 void test_byte() {
     printf(ANSI_COLOR_CYAN "\n[Testing Byte]\n" ANSI_COLOR_RESET);

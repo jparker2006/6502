@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "gates.h": "c",
-        "stdbool.h": "c",
-        "main.h": "c",
-        "bit_def.h": "c",
-        "alu_logic.h": "c"
-    }
-}

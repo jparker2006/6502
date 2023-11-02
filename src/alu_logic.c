@@ -15,14 +15,6 @@ bit not(bit a) {
     return r;
 }
 
-bit nand(bit a, bit b) {
-    bit r;
-    a = mask_bit(a);
-    b = mask_bit(b);
-    r = mask_bit(not(and(a, b)));
-    return r;
-}
-
 bit or(bit a, bit b) {
     bit r;
     a = mask_bit(a);
@@ -31,18 +23,26 @@ bit or(bit a, bit b) {
     return r;
 }
 
-bit nor(bit a, bit b) {
-    bit r;
-    a = mask_bit(a);
-    b = mask_bit(b);
-    r = mask_bit(not(or(a, b)));
-    return r;
-}
-
 bit xor(bit a, bit b) {
     bit r;
     a = mask_bit(a);
     b = mask_bit(b);
     r = mask_bit(a ^ b);
+    return r;
+}
+
+bit nand(bit a, bit b) {
+    bit r;
+    a = mask_bit(a);
+    b = mask_bit(b);
+    r = mask_bit(not(and(a, b)));
+    return r;
+}
+
+bit nor(bit a, bit b) {
+    bit r;
+    a = mask_bit(a);
+    b = mask_bit(b);
+    r = mask_bit(not(or(a, b)));
     return r;
 }
