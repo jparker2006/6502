@@ -1,0 +1,1 @@
+(gcc /Users/jparker/Desktop/Simulation/src/*.c -ldl -lm && ./a.out) || echo "Error Building"
