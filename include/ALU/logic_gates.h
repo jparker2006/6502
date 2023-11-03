@@ -1,7 +1,7 @@
-#ifndef GATES_H
-#define GATES_H
+#ifndef LOGIC_GATES_H
+#define LOGIC_GATES_H
 
-#include "bit_def.h"
+#include "../bit_def.h"
 
 // Logic gates
 bit and(bit a, bit b);
@@ -13,4 +13,4 @@ bit xor(bit a, bit b);
 bit nand(bit a, bit b);
 bit nor(bit a, bit b);
 
-#endif // GATES_H
+#endif // LOGIC_GATES_H

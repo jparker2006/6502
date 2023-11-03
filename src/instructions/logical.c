@@ -1,0 +1,1 @@
+#include "../include/instructions/logical.h"

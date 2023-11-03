@@ -1,4 +1,4 @@
-#include "../include/adder.h"
+#include "../include/ALU/adder.h"
 
 bit* half_adder(bit a, bit b) {
     bit sum = xor(a, b);

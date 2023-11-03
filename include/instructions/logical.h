@@ -1,6 +1,6 @@
-#ifndef LOGICAL_INST_H
-#define LOGICAL_INST_H
+#ifndef LOGICAL_H
+#define LOGICAL_H
 
-#include "../alu_logic.h"
+#include "../ALU/logic_gates.h"
 
-#endif // LOGICAL_INST_H
+#endif // LOGICAL_H

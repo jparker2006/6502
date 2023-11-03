@@ -2,6 +2,11 @@
 
 <div style='text-align: center; font-size: 30px;'><b><u>6502 Microprocessor Emulator</u></b></div>
 
+<div style='margin-left: 20px; font-size: 23px;'><b>Notes</b></div>
+<ul style='margin-left: 20px; margin-right: 20px;'>
+<li>Current task: emulating legal opcodes</li>
+<li>Currently holding original MOS 6502 integrity for all levels except circuitry</li></ul>
+
 <div style='margin-left: 20px; font-size: 23px;'><b><a href="http://6502.org/users/obelisk/6502/instructions.html" target="_blank">Instructions Set</a></b></div>
 
 <div style='margin-left: 20px; font-size: 18px;'>Load/Store Operations</div>

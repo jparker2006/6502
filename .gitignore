@@ -57,3 +57,5 @@ dkms.conf
 # VS Code files
 *.vscode*
 
+# Binary output folders & files
+/bin/*

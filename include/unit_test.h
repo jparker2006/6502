@@ -5,16 +5,18 @@
 #include <assert.h>
 
 #include "bit_def.h"
-#include "alu_logic.h"
 #include "byte.h"
-#include "adder.h"
+
+#include "ALU/adder.h"
+#include "ALU/logic_gates.h"
+
 #include "instructions/shifter.h"
 #include "instructions/logical.h"
 
-#define ANSI_COLOR_GREEN   "\x1b[32m"
-#define ANSI_COLOR_BLUE    "\x1b[34m"
-#define ANSI_COLOR_CYAN    "\x1b[36m"
-#define ANSI_COLOR_RESET   "\x1b[0m"
+#define ANSI_COLOR_GREEN "\x1b[32m"
+#define ANSI_COLOR_BLUE  "\x1b[34m"
+#define ANSI_COLOR_CYAN  "\x1b[36m"
+#define ANSI_COLOR_RESET "\x1b[0m"
 
 // Full Test Suite
 void run_test_suite();
