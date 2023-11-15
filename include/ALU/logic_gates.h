@@ -1,7 +1,7 @@
 #ifndef LOGIC_GATES_H
 #define LOGIC_GATES_H
 
-#include "../bit_def.h"
+#include "../bit.h"
 
 // Logic gates
 bit and(bit a, bit b);

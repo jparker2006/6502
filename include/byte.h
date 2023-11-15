@@ -5,7 +5,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-#include "bit_def.h"
+#include "bit.h"
 
 typedef unsigned char byte;
 

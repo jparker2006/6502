@@ -106,7 +106,7 @@ void test_xor() {
 }
 
 void test_rotate_left() {
-    // byte a = 0b10110100;
+    byte a = 0b10110100;
     // a = rotate_left(a, 1);
     // assert(a == 0b01101001);
 

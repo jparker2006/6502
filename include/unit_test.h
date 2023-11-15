@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <assert.h>
 
-#include "bit_def.h"
+#include "bit.h"
 #include "byte.h"
 
 #include "ALU/adder.h"

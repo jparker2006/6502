@@ -1,4 +1,4 @@
-#include "../include/bit_def.h"
+#include "../include/bit.h"
 
 bit mask_bit(bit a) {
     a &= BIT_MASK;

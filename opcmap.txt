@@ -1,0 +1,65 @@
+MOS 6502 Opcode Map
+Load/Store Operations
+- LDA (A9, A5, B5): Load Accumulator [Immediate, Zero Page, Zero Page,X]
+- LDX (A2, A6, B6): Load X Register [Immediate, Zero Page, Zero Page,Y]
+- LDY (A0, A4, B4): Load Y Register [Immediate, Zero Page, Zero Page,X]
+- STA (85, 95, 8D): Store Accumulator [Zero Page, Zero Page,X, Absolute]
+- STX (86, 96, 8E): Store X Register [Zero Page, Zero Page,Y, Absolute]
+- STY (84, 94, 8C): Store Y Register [Zero Page, Zero Page,X, Absolute]
+
+Register Transfers
+- TAX (AA): Transfer Accumulator to X [Implied]
+- TAY (A8): Transfer Accumulator to Y [Implied]
+- TXA (8A): Transfer X to Accumulator [Implied]
+- TYA (98): Transfer Y to Accumulator [Implied]
+
+Stack Operations
+- PHA (48): Push Accumulator [Implied]
+- PHP (08): Push Processor Status [Implied]
+- PLA (68): Pull Accumulator [Implied]
+- PLP (28): Pull Processor Status [Implied]
+- TSX (BA): Transfer Stack Pointer to X [Implied]
+- TXS (9A): Transfer X to Stack Pointer [Implied]
+
+Logical Operations
+- AND (29, 25, 35): Logical AND [Immediate, Zero Page, Zero Page,X]
+- ORA (09, 05, 15): Logical Inclusive OR [Immediate, Zero Page, Zero Page,X]
+- EOR (49, 45, 55): Exclusive OR [Immediate, Zero Page, Zero Page,X]
+- BIT (24, 2C): Bit Test [Zero Page, Absolute]
+
+Arithmetic Operations
+- ADC (69, 65, 75): Add with Carry [Immediate, Zero Page, Zero Page,X]
+- SBC (E9, E5, F5): Subtract with Carry [Immediate, Zero Page, Zero Page,X]
+- CMP (C9, C5, D5): Compare Accumulator [Immediate, Zero Page, Zero Page,X]
+- CPX (E0, E4, EC): Compare X Register [Immediate, Zero Page, Absolute]
+- CPY (C0, C4, CC): Compare Y Register [Immediate, Zero Page, Absolute]
+
+Increments & Decrements
+- INC (E6, F6, EE): Increment Memory [Zero Page, Zero Page,X, Absolute]
+- INX (E8): Increment X Register [Implied]
+- INY (C8): Increment Y Register [Implied]
+- DEC (C6, D6, CE): Decrement Memory [Zero Page, Zero Page,X, Absolute]
+- DEX (CA): Decrement X Register [Implied]
+- DEY (88): Decrement Y Register [Implied]
+
+Shifts
+- ASL (0A, 06, 16): Arithmetic Shift Left [Accumulator, Zero Page, Zero Page,X]
+- LSR (4A, 46, 56): Logical Shift Right [Accumulator, Zero Page, Zero Page,X]
+- ROL (2A, 26, 36): Rotate Left [Accumulator, Zero Page, Zero Page,X]
+- ROR (6A, 66, 76): Rotate Right [Accumulator, Zero Page, Zero Page,X]
+
+Jumps & Calls
+- JMP (4C, 6C): Jump [Absolute, Indirect]
+- JSR (20): Jump to Subroutine [Absolute]
+- RTS (60): Return from Subroutine [Implied]
+- RTI (40): Return from Interrupt [Implied]
+
+Branches
+- BCC (90): Branch if Carry Clear [Relative]
+- BCS (B0): Branch if Carry Set [Relative]
+- BEQ (F0): Branch if Equal [Relative]
+- BNE (D0): Branch if Not Equal [Relative]
+- BMI (30): Branch if Minus [Relative]
+- BPL (10): Branch if Positive [Relative]
+- BVC (50): Branch if Overflow Clear [Relative]
+- BVS (70): Branch if Overflow Set [Relative]

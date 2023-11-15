@@ -32,17 +32,9 @@ bit xor(bit a, bit b) {
 }
 
 bit nand(bit a, bit b) {
-    bit r;
-    a = mask_bit(a);
-    b = mask_bit(b);
-    r = mask_bit(not(and(a, b)));
-    return r;
+    return mask_bit(not(and(a, b)));
 }
 
 bit nor(bit a, bit b) {
-    bit r;
-    a = mask_bit(a);
-    b = mask_bit(b);
-    r = mask_bit(not(or(a, b)));
-    return r;
+    return mask_bit(not(or(a, b)));
 }
